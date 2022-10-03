@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 17</title>
+</head>
+<body>
+    <script>
+        let x1, x2, suma;
+        x1 = parseInt(prompt('Ingrese el primer valor:'));
+        x2 = parseInt(prompt('Ingrese el segundo valor:'));
+        if (isNaN(x1) || isNaN(x2)) {
+            document.write('uno de los dos valores ingresados no es numérico.');
+        } else {
+            suma = x1 + x2;
+            document.write('La suma de los dos valores es:' + suma);
+        }
+    </script>
+</body>
+</html>
